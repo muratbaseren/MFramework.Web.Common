@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>MFramework.Web.Common</id>
+    <version>$version$</version>
+    <title>MFramework.Web.Common</title>
+    <authors>K. Murat Başeren</authors>
+    <owners>K. Murat Başeren</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/muratbaseren/MFramework.Web.Common</projectUrl>
+    <iconUrl>https://github.com/muratbaseren/MFramework.Web.Common/blob/master/assets/web-common-icon.png?raw=true</iconUrl>
+    <description>Includes common classes and helpers (.NET Framework).</description>
+    <summary>Includes common classes and helpers (.NET Framework).</summary>
+    <copyright>K. Murat Başeren</copyright>
+    <tags>classes, web, helpers, caching, config, resthelper</tags>
+    <repository type="git" url="https://github.com/muratbaseren/MFramework.Web.Common" branch="master" />
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="12.0.3" />
+      <dependency id="RestSharp" version="106.10.1" />
+      <dependency id="Autofac" version="5.1.2" />
+      <dependency id="System.IdentityModel.Tokens.Jwt" version="5.6.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" />
+      <frameworkAssembly assemblyName="System.Web" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
