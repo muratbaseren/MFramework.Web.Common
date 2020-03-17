@@ -25,4 +25,7 @@
       <frameworkAssembly assemblyName="System.Web" />
     </frameworkAssemblies>
   </metadata>
+  <files>
+    <file src="bin\release\MFrameworkWebCommon.dll" target="lib\net472\MFrameworkWebCommon.dll" />
+  </files>
 </package>
